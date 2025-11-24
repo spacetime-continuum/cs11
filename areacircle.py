@@ -1,4 +1,5 @@
 import math
+print("This solves for the area of a circle.")
 radius = int(input("What is the radius of the circle? "))
 answer = math.pi * radius ** 2
 result = str(round(answer))

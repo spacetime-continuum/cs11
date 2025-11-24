@@ -1,0 +1,6 @@
+test = input("yeah?")
+
+if test == 1:
+    print("ok")
+else: 
+    print("no")

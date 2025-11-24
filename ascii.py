@@ -4,7 +4,7 @@ option1 = ("placeholder")
 
 
 
-option1 = ("placeholder")
+option2 = ("placeholder")
 
 
 if decision == 1:

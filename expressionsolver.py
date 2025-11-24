@@ -1,3 +1,4 @@
+print("This script does (a - b) + (a * b) to whatever a and b is set to.")
 avar = int(input("What is the value of variable a? "))
 bvar = int(input("What is the value of variable b? "))
 answer = (avar - bvar) + (avar * bvar)

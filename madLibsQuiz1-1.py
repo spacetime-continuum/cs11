@@ -1,21 +1,23 @@
 #This is a MadLibs project 
-#My name: 
+#My name: Zixuan Ma
 #Who I collaborated with: 
 
 print("************************************")
 print("|                                  |")
 print("|      Welcome to MadLibs          | ") 
 print("|                                  |")
-print(************************************)
+print("************************************") #add quotation error 1
 
-(''MadLibs is a fill-in-the-blanks story
+print('''MadLibs is a fill-in-the-blanks story
 game. The player must choose words based on the 
 given prompts, and the computer will return a 
 short story that includes the words the user chose.''')
+#error 2 add print
 
-play = onput("Do you want to play MadLibs?(y/n) ")
+play = input("Do you want to play MadLibs?(y/n) ")
+#error 3 mispell
 
-if play = "y"
+if play == "y": #error 4 double == and :
     person_name = input("Choose a name for a person: ")
     place = input("Choose a place: ")
     noun_1 = input("Choose a singlular noun: ")
